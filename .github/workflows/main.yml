@@ -20,4 +20,4 @@ jobs:
         with:
           node-version: "16.x"
       - run: npm install --save-dev --save-exact prettier
-      - run: npx prettier --single-attribute-per-line true --use-tabs true --write **/*.{js,cjs,ts,jsx,tsx,json,md}
+      - run: npx prettier --single-attribute-per-line true --use-tabs true -u --write **/*.{js,cjs,ts,jsx,tsx,json,md}
